@@ -36,8 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/WaypointFollower.cs" />
      <Compile Include="Assets/Scripts/Movement.cs" />
-     <Compile Include="Assets/Scripts/PlatformMovement.cs" />
+     <Compile Include="Assets/Scripts/StickyPlatform.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.35f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
